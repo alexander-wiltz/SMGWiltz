@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="Fixed JUnit Jupiter Version to 5.9.0 and compiler version to v15">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/AppAccount.java" afterDir="false" />
+    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="Created Classes Account and AppAccount and created a multiply function for the FixedPointNumbers in the Account-Class">
+      <change afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/AccountMultiplyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/FixedPointAddSubtactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointAddSubtactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/FixedPointConstructTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointConstructTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/FixedPointNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/FixedPointNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppAccount">
+  <component name="RunManager" selected="JUnit.AccountMultiplyTest">
     <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Account" />
       <module name="FixedPointNumbers" />
@@ -88,6 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountMultiplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FixedPointNumbers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountMultiplyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FixedPointAddSubtactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FixedPointNumbers" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,22 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixedPointConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FixedPointNumbers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FixedPointConstructTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountMultiplyTest" />
         <item itemvalue="Application.AppAccount" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Account" />
         <item itemvalue="JUnit.FixedPointAddSubtactTest" />
-        <item itemvalue="JUnit.FixedPointConstructTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662638854124</updated>
       <workItem from="1662638855372" duration="995000" />
-      <workItem from="1662639868687" duration="12117000" />
+      <workItem from="1662639868687" duration="14054000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1662638955680</created>
@@ -162,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662644325026</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created Classes Account and AppAccount and created a multiply function for the FixedPointNumbers in the Account-Class">
+      <created>1662655614494</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662655614494</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +184,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Added project classes from Mr Brill" />
     <MESSAGE value="Fixed JUnit Jupiter Version to 5.9.0 and compiler version to v15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed JUnit Jupiter Version to 5.9.0 and compiler version to v15" />
+    <MESSAGE value="Created Classes Account and AppAccount and created a multiply function for the FixedPointNumbers in the Account-Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Classes Account and AppAccount and created a multiply function for the FixedPointNumbers in the Account-Class" />
   </component>
 </project>

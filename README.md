@@ -1,7 +1,7 @@
 # Software Management Grundlagen
->SMG Repository für Alexander Wiltz
+> SMG Repository für Alexander Wiltz
 
-##Checkliste
+## Checkliste
 - [X] Schritt 1, Klassen übernommen und implementiert
 - [X] Schritt 2, Klasse *Account* anlegen und von *FixedPointNumber* ableiten
 - [X] Schritt 3, Methode *multiply* in Klasse *Account* integrieren
