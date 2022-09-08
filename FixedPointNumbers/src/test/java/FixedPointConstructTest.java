@@ -15,8 +15,7 @@ class FixedPointConstructTest {
 		
 		s = 200;
 	    v = 200;
-		
-	    
+
         x = 1.0;
 	    correctValue = 1.0;
 	    correctDefault = 1.0;

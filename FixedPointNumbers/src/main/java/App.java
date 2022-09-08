@@ -13,14 +13,14 @@ public class App {
         print();
         System.out.println("Die ganze Zahl dazu: " + lengths.getValue());
         
-        double y = 2.0;
+        double y = 1.5;
         lengths.add(y);
         
-        System.out.println("Das Ergebnis der Addition von 1.0 und 2.0");
+        System.out.println("Das Ergebnis der Addition von " + x + " und " + y);
         print();
         System.out.println("Die ganze Zahl dazu: " + lengths.getValue());
              
-        System.out.println("Das Ergebnis der Subtaktion von 2.0");
+        System.out.println("Das Ergebnis der Subtaktion von " + y);
         lengths.subtract(y);
         print();
         System.out.println("Die ganze Zahl dazu: " + lengths.getValue());
