@@ -31,10 +31,9 @@ public class FixedPointNumber {
 				 x);
 		 this.value -= (summand.getValue() + this.displacement);
 	 }
-	
-	 
+
 	 public void set(double x) {
-		 this.value = (int) ((scaling*x) - displacement);
+		 this.value = (int) ((scaling * x) - displacement);
 	 }
 	 
 	 public double get() {
@@ -44,7 +43,6 @@ public class FixedPointNumber {
 	 public int getValue() {
 		 return this.value;
 	 }
-	 
 
 	 public int getDisplacement() {
 		 return this.displacement;
