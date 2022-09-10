@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FixedPointNumbers/FixedPointNumbers.iml" filepath="$PROJECT_DIR$/FixedPointNumbers/FixedPointNumbers.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/SMGWiltz.iml" filepath="$PROJECT_DIR$/.idea/SMGWiltz.iml" />
     </modules>
   </component>
 </project>
