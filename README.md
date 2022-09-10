@@ -21,8 +21,7 @@
 - Zusätzliche Unittests angelegt.
 
 ## Beschreibung der Code-Änderungen (release 2)
-- Test 
-- Test
+- Doxyfile erstellt und mit Hilfe von Doxygen eine HTML-Dokumentation erstellt
 
 ## Beschreibung der Code-Änderungen (release 3)
 - Test
