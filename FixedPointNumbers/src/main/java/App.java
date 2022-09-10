@@ -2,6 +2,11 @@ public class App {
 
 	public static void main(String[] args) {
 
+        /***
+         *
+         * \example Examples to calculate with a scaling of 200 and a displacement of 200
+         */
+
         System.out.println("Messwerte");
         
 		int s = 200;
@@ -31,6 +36,9 @@ public class App {
         System.out.println("Die ganze Zahl dazu: " + lengths.getValue());          
 	}
 
+    /***
+     * \brief Print-Method with a format of three digits after the point
+     */
 	 private static void print() {
 		 System.out.format("%.3f%n", lengths.get());
 	 }
