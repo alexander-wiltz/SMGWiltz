@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AccountMultiplyTest {
+class AccountMultiplyTest {
 
     private static double delta;
     private static double x, y, correctValue;
