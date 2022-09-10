@@ -1,5 +1,13 @@
 public class AppAccount {
 
+    /***
+     *
+     * @author Alexander Wiltz
+     * @date 2022-09-08
+     *
+     * \example Two examples to calculate with a scaling of 100 and a displacement of 0
+     */
+
     public static void main(String[] args) {
 
         System.out.println("Geldbeträge");
@@ -38,6 +46,9 @@ public class AppAccount {
 
     private static Account money;
 
+    /***
+     * \brief Print-Method with a format of two digits after the point
+     */
     private static void print() {
         System.out.format("%.2f%n", money.get());
     }

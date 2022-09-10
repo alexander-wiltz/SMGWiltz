@@ -8,7 +8,7 @@
 - [X] Schritt 4, Klasse *AppAccount* anlegen und Beispiele für *Account* integrieren
 - [X] Schritt 5, README.md anpassen und *release1* erzeugen
 - [X] Schritt 6, HTML-Dokumentation erstellen
-- [ ] Schritt 7, README.md anpassen und *release2* erzeugen
+- [X] Schritt 7, README.md anpassen und *release2* erzeugen
 - [ ] Schritt 8, Logging implementieren
 - [ ] Schritt 9, README.md anpassen und *release3* erzeugen
 - [ ] Schritt 10, Ant als Build-Werkzeug einsetzen, HTML Doku erstellbar über Konsole
@@ -21,8 +21,7 @@
 - Zusätzliche Unittests angelegt.
 
 ## Beschreibung der Code-Änderungen (release 2)
-- Test 
-- Test
+- Doxyfile erstellt und mit Hilfe von Doxygen eine HTML-Dokumentation erstellt
 
 ## Beschreibung der Code-Änderungen (release 3)
 - Test
