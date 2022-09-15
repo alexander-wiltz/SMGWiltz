@@ -5,7 +5,7 @@ public class Account extends FixedPointNumber {
 
     private static final Logger logger = LoggerFactory.getLogger(Account.class);
 
-    /***
+    /**
      *
      * @author Alexander Wiltz
      * @date 2022-09-08
@@ -26,7 +26,7 @@ public class Account extends FixedPointNumber {
         // Logging is already implemented in base-class
     }
 
-    /***
+    /**
      *
      *  \brief  Multiply-method
      *
@@ -40,6 +40,7 @@ public class Account extends FixedPointNumber {
         logger.info("Calling 'multiply-method'", Account.class.getSimpleName());
 
         FixedPointNumber factor = new FixedPointNumber(this.scaling, this.displacement, x);
+
 
         logger.debug("Calculate " + this.value + " * (" + (double) factor.getValue() + " / " + this.scaling + ")", Account.class.getSimpleName());
         this.value *= ((double) factor.getValue() / this.scaling);

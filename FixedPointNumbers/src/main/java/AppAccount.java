@@ -3,12 +3,12 @@ import org.slf4j.LoggerFactory;
 
 public class AppAccount {
 
-    /***
+    /**
      *
      * @author Alexander Wiltz
      * @date 2022-09-08
      *
-     * \example Two examples to calculate with a scaling of 100 and a displacement of 0
+     * Two examples to calculate with a scaling of 100 and a displacement of 0
      */
 
     private static final Logger logger = LoggerFactory.getLogger(AppAccount.class);
@@ -58,7 +58,7 @@ public class AppAccount {
 
     private static Account money;
 
-    /***
+    /**
      * \brief   Print-Method with a format of two digits after the point
      *          Added logging option for the used number, level: DEBUG
      */

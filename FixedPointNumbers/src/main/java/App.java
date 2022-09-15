@@ -7,9 +7,9 @@ public class App {
 
 	public static void main(String[] args) {
 
-        /***
+        /**
          *
-         * \example Examples to calculate with a scaling of 200 and a displacement of 200
+         * Examples to calculate with a scaling of 200 and a displacement of 200
          */
 
         System.out.println("Messwerte");
@@ -48,7 +48,7 @@ public class App {
         logger.info("Value as number: " + lengths.getValue(), App.class.getSimpleName());
 	}
 
-    /***
+    /**
      * \brief Print-Method with a format of three digits after the point
      */
 	 private static void print() {
