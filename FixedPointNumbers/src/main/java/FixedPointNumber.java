@@ -1,4 +1,9 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class FixedPointNumber {
+
+	private static final Logger logger = LoggerFactory.getLogger(Account.class);
 
 	/***
 	 *
@@ -11,6 +16,8 @@ public class FixedPointNumber {
 		 this.scaling = 0;
 		 this.displacement = 0;
 		 this.set(1.0);
+
+		 logger.debug("Called standard-constructor: Scale is set to 0 and displacement is set to 0");
 	 }
 
 	/***
@@ -24,12 +31,16 @@ public class FixedPointNumber {
 		 this.scaling = s;
 		 this.displacement = v;
 		 this.set(x);
+
+		 logger.debug("Scale is set to " + s + " and displacement is set to " + v);
 	 }
 	 
 	 public FixedPointNumber(int s, int v) {
 		 this.scaling = s;
 		 this.displacement = v;
 		 this.set(1.0);
+
+		 logger.debug("Scale is set to " + s + " and displacement is set to " + v);
 	 }
 
 	/***
@@ -38,10 +49,12 @@ public class FixedPointNumber {
 	 *
 	 */
 	public void add(double x) {
-		 FixedPointNumber summand = new FixedPointNumber(this.scaling,
-				 this.displacement,
-				 x);
-		 this.value += summand.getValue() + this.displacement;
+		logger.info("Calling 'add-method'", FixedPointNumber.class.getSimpleName());
+		FixedPointNumber summand = new FixedPointNumber(this.scaling, this.displacement, x);
+
+		logger.debug("Calculate " + this.value + " + " + (double) summand.getValue() + " + " + this.scaling, FixedPointNumber.class.getSimpleName());
+		this.value += summand.getValue() + this.displacement;
+		logger.info("Returned value is: " + this.value, FixedPointNumber.class.getSimpleName());
 	 }
 
 	/***
@@ -50,10 +63,12 @@ public class FixedPointNumber {
 	 *
 	 */
 	 public void subtract(double x) {
-		 FixedPointNumber summand = new FixedPointNumber(this.scaling,
-				 this.displacement,
-				 x);
+		 logger.info("Calling 'subtract-method'", FixedPointNumber.class.getSimpleName());
+		 FixedPointNumber summand = new FixedPointNumber(this.scaling, this.displacement, x);
+
+		 logger.debug("Calculate " + this.value + " - " + (double) summand.getValue() + " + " + this.scaling, FixedPointNumber.class.getSimpleName());
 		 this.value -= (summand.getValue() + this.displacement);
+		 logger.info("Returned value is: " + this.value, FixedPointNumber.class.getSimpleName());
 	 }
 
 	/***
@@ -63,6 +78,7 @@ public class FixedPointNumber {
 	 */
 	 public void set(double x) {
 		 this.value = (int) ((scaling * x) - displacement);
+		 logger.debug(this.value + " = (" + scaling + " * " + x + ") - " + displacement + " and prepare for next function", FixedPointNumber.class.getSimpleName());
 	 }
 	 
 	 public double get() {
