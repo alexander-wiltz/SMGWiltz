@@ -1,4 +1,9 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Account extends FixedPointNumber {
+
+    private static final Logger logger = LoggerFactory.getLogger(Account.class);
 
     /***
      *
@@ -18,6 +23,7 @@ public class Account extends FixedPointNumber {
 
     public Account(int s, int v) {
         super(s,v);
+        // Logging is already implemented in base-class
     }
 
     /***
@@ -31,8 +37,13 @@ public class Account extends FixedPointNumber {
      */
 
     public void multiply(double x) {
+        logger.info("Calling 'multiply-method'", Account.class.getSimpleName());
+
         FixedPointNumber factor = new FixedPointNumber(this.scaling, this.displacement, x);
+
+        logger.debug("Calculate " + this.value + " * (" + (double) factor.getValue() + " / " + this.scaling + ")", Account.class.getSimpleName());
         this.value *= ((double) factor.getValue() / this.scaling);
+        logger.info("Returned value is: " + this.value, Account.class.getSimpleName());
     }
 
 }
