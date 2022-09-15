@@ -5,7 +5,7 @@ public class FixedPointNumber {
 
 	private static final Logger logger = LoggerFactory.getLogger(Account.class);
 
-	/***
+	/**
 	 *
 	 *  \brief  The FixedPointNumber-class
 	 *          Examples are in the App-class.
@@ -20,7 +20,7 @@ public class FixedPointNumber {
 		 logger.debug("Called standard-constructor: Scale is set to 0 and displacement is set to 0");
 	 }
 
-	/***
+	/**
 	 * \brief  Constructor with a dynamic set()-implementation
 	 *
 	 * @param s scaling
@@ -34,7 +34,13 @@ public class FixedPointNumber {
 
 		 logger.debug("Scale is set to " + s + " and displacement is set to " + v);
 	 }
-	 
+
+	/**
+	 * \brief	Constructor with a static set()-implementation
+	 *
+	 * @param s scaling
+	 * @param v displacement
+	 */
 	 public FixedPointNumber(int s, int v) {
 		 this.scaling = s;
 		 this.displacement = v;
@@ -43,7 +49,7 @@ public class FixedPointNumber {
 		 logger.debug("Scale is set to " + s + " and displacement is set to " + v);
 	 }
 
-	/***
+	/**
 	 * \brief addition-method
 	 *        add two fixed point numbers
 	 *
@@ -57,7 +63,7 @@ public class FixedPointNumber {
 		logger.info("Returned value is: " + this.value, FixedPointNumber.class.getSimpleName());
 	 }
 
-	/***
+	/**
 	 * \brief subtract-method
 	 *        subtract two fixed point numbers
 	 *
@@ -71,7 +77,7 @@ public class FixedPointNumber {
 		 logger.info("Returned value is: " + this.value, FixedPointNumber.class.getSimpleName());
 	 }
 
-	/***
+	/**
 	 * \brief 	sets the value by calculating the value with
 	 * 			n = ( s * x ) - v
 	 *
@@ -80,8 +86,14 @@ public class FixedPointNumber {
 		 this.value = (int) ((scaling * x) - displacement);
 		 logger.debug(this.value + " = (" + scaling + " * " + x + ") - " + displacement + " and prepare for next function", FixedPointNumber.class.getSimpleName());
 	 }
-	 
-	 public double get() {
+
+	/**
+	 * \brief 	returns the number
+	 * 			calculated: (n + v) / s
+	 *
+	 * @return scaled value
+	 */
+	public double get() {
 		 return (this.value + displacement)/(double)scaling;
 	 }
 

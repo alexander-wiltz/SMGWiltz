@@ -1,0 +1,10 @@
+<map id="FixedPointNumber.getValue" name="FixedPointNumber.getValue">
+<area shape="rect" id="node1" title=" " alt="" coords="407,156,591,181"/>
+<area shape="rect" id="node2" href="$class_fixed_point_number.html#ab5b5d8a2bbf0377a88928890e462094a" title="addition&#45;method add two fixed point numbers" alt="" coords="191,5,346,31"/>
+<area shape="rect" id="node3" href="$class_app.html#a941972c4be68395f473d23f1cbf101a7" title=" " alt="" coords="29,81,107,107"/>
+<area shape="rect" id="node4" href="$class_app_account.html#a1d2cd627dd13f0886258f71888d5cb1b" title=" " alt="" coords="5,257,131,283"/>
+<area shape="rect" id="node5" href="$class_account.html#a2ec762f292b745776b470fc212441eb9" title="Multiply&#45;method." alt="" coords="209,257,328,283"/>
+<area shape="rect" id="node6" href="$class_app.html#a71b6307c7b62ab300db930a37d20c977" title="Print&#45;Method with a format of three digits after the point." alt="" coords="231,107,306,132"/>
+<area shape="rect" id="node7" href="$class_app_account.html#a96228dc2cbb0032750544ff520df6dd2" title="Print&#45;Method with a format of two digits after the point Added logging option for the used number,..." alt="" coords="207,307,330,332"/>
+<area shape="rect" id="node8" href="$class_fixed_point_number.html#a91271248a2d0426acc6a1ada8ea37709" title="subtract&#45;method subtract two fixed point numbers" alt="" coords="179,156,359,181"/>
+</map>

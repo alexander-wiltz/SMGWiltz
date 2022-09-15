@@ -1,0 +1,7 @@
+<map id="App.print" name="App.print">
+<area shape="rect" id="node1" title="Print&#45;Method with a format of three digits after the point." alt="" coords="5,84,80,109"/>
+<area shape="rect" id="node2" href="$class_fixed_point_number.html#a5a41bc64660942d5250cb826f70894e0" title="returns the number calculated: (n + v) / s" alt="" coords="168,5,319,31"/>
+<area shape="rect" id="node3" href="$class_fixed_point_number.html#ae2bf9678820514ac30189389b589f691" title=" " alt="" coords="128,55,359,80"/>
+<area shape="rect" id="node4" href="$class_fixed_point_number.html#a5c7ea42ab1dae73faee7823a6bd68789" title=" " alt="" coords="146,105,341,145"/>
+<area shape="rect" id="node5" href="$class_fixed_point_number.html#a90bc07084af056815dc18b41ca6235e3" title=" " alt="" coords="151,169,335,195"/>
+</map>
