@@ -1,0 +1,29 @@
+18:01:34.660 [main] INFO  AppAccount - Started 'Geldbeträge'
+18:01:34.671 [main] DEBUG Account - 100 = (100 * 1.0) - 0 and prepare for next function
+18:01:34.673 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+18:01:34.673 [main] DEBUG Account - 200 = (100 * 2.0) - 0 and prepare for next function
+18:01:34.687 [main] DEBUG AppAccount - Value is 2.0
+18:01:34.690 [main] DEBUG AppAccount - Get the value by calculating 200 + 0 / 100
+18:01:34.692 [main] INFO  AppAccount - Value as number: 200
+18:01:34.692 [main] INFO  Account - Calling 'multiply-method'
+18:01:34.694 [main] DEBUG Account - 300 = (100 * 3.0) - 0 and prepare for next function
+18:01:34.694 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+18:01:34.697 [main] DEBUG Account - Calculate 200 * (300.0 / 100)
+18:01:34.697 [main] INFO  Account - Returned value is: 600
+18:01:34.698 [main] INFO  AppAccount - Multiply 2.0 and 3.0
+18:01:34.699 [main] DEBUG AppAccount - Value is 6.0
+18:01:34.699 [main] DEBUG AppAccount - Get the value by calculating 600 + 0 / 100
+18:01:34.699 [main] INFO  AppAccount - Value as number: 600
+18:01:34.699 [main] DEBUG Account - 100 = (100 * 1.0) - 0 and prepare for next function
+18:01:34.699 [main] DEBUG AppAccount - Value is 1.0
+18:01:34.699 [main] DEBUG AppAccount - Get the value by calculating 100 + 0 / 100
+18:01:34.700 [main] INFO  AppAccount - Value as number: 100
+18:01:34.700 [main] INFO  Account - Calling 'multiply-method'
+18:01:34.700 [main] DEBUG Account - 200 = (100 * 2.0) - 0 and prepare for next function
+18:01:34.700 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+18:01:34.700 [main] DEBUG Account - Calculate 100 * (200.0 / 100)
+18:01:34.700 [main] INFO  Account - Returned value is: 200
+18:01:34.700 [main] INFO  AppAccount - Multiply 1.0 und 2.0
+18:01:34.700 [main] DEBUG AppAccount - Value is 2.0
+18:01:34.700 [main] DEBUG AppAccount - Get the value by calculating 200 + 0 / 100
+18:01:34.700 [main] INFO  AppAccount - Value as number: 200
