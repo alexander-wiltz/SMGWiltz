@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="better doxygen HTML output" />
+    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="workspace.xml autoedit by IDE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +120,7 @@
       <workItem from="1662638855372" duration="995000" />
       <workItem from="1662639868687" duration="15107000" />
       <workItem from="1662802972235" duration="4335000" />
-      <workItem from="1663234310945" duration="11987000" />
+      <workItem from="1663234310945" duration="13101000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1662638955680</created>
@@ -266,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663255568999</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="workspace.xml autoedit by IDE">
+      <created>1663255609324</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663255609324</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +309,7 @@
     <MESSAGE value="edited README.md: description for release 3" />
     <MESSAGE value="edited comments in the java files for a better doxygen HTML output" />
     <MESSAGE value="better doxygen HTML output" />
-    <option name="LAST_COMMIT_MESSAGE" value="better doxygen HTML output" />
+    <MESSAGE value="workspace.xml autoedit by IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml autoedit by IDE" />
   </component>
 </project>
