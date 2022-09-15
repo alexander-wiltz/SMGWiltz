@@ -1,0 +1,11 @@
+<map id="AppAccount.main" name="AppAccount.main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,95,131,121"/>
+<area shape="rect" id="node2" href="$class_fixed_point_number.html#a90bc07084af056815dc18b41ca6235e3" title=" " alt="" coords="401,70,585,95"/>
+<area shape="rect" id="node3" href="$class_account.html#a2ec762f292b745776b470fc212441eb9" title="Multiply&#45;method." alt="" coords="195,19,313,45"/>
+<area shape="rect" id="node5" href="$class_app_account.html#a96228dc2cbb0032750544ff520df6dd2" title="Print&#45;Method with a format of two digits after the point Added logging option for the used number,..." alt="" coords="193,121,315,146"/>
+<area shape="rect" id="node9" href="$class_fixed_point_number.html#aa0b46bb5e67ee7d529c6077d7cce2f56" title="sets the value by calculating the value with n = ( s * x ) &#45; v" alt="" coords="179,170,329,195"/>
+<area shape="rect" id="node4" href="$class_fixed_point_number.html#ad5c5e4d3ff7de07d79734e76e095129e" title="The FixedPointNumber&#45;class Examples are in the App&#45;class." alt="" coords="395,5,590,45"/>
+<area shape="rect" id="node6" href="$class_fixed_point_number.html#a5a41bc64660942d5250cb826f70894e0" title="returns the number calculated: (n + v) / s" alt="" coords="417,234,568,259"/>
+<area shape="rect" id="node7" href="$class_fixed_point_number.html#ae2bf9678820514ac30189389b589f691" title=" " alt="" coords="377,119,608,145"/>
+<area shape="rect" id="node8" href="$class_fixed_point_number.html#a5c7ea42ab1dae73faee7823a6bd68789" title=" " alt="" coords="395,169,590,209"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="App.main" name="App.main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,113,83,138"/>
+<area shape="rect" id="node2" href="$class_fixed_point_number.html#ab5b5d8a2bbf0377a88928890e462094a" title="addition&#45;method add two fixed point numbers" alt="" coords="143,62,298,87"/>
+<area shape="rect" id="node4" href="$class_fixed_point_number.html#a90bc07084af056815dc18b41ca6235e3" title=" " alt="" coords="382,70,566,95"/>
+<area shape="rect" id="node5" href="$class_app.html#a71b6307c7b62ab300db930a37d20c977" title="Print&#45;Method with a format of three digits after the point." alt="" coords="183,163,258,189"/>
+<area shape="rect" id="node9" href="$class_fixed_point_number.html#aa0b46bb5e67ee7d529c6077d7cce2f56" title="sets the value by calculating the value with n = ( s * x ) &#45; v" alt="" coords="145,213,296,238"/>
+<area shape="rect" id="node10" href="$class_fixed_point_number.html#a91271248a2d0426acc6a1ada8ea37709" title="subtract&#45;method subtract two fixed point numbers" alt="" coords="131,13,311,38"/>
+<area shape="rect" id="node3" href="$class_fixed_point_number.html#ad5c5e4d3ff7de07d79734e76e095129e" title="The FixedPointNumber&#45;class Examples are in the App&#45;class." alt="" coords="377,5,571,45"/>
+<area shape="rect" id="node6" href="$class_fixed_point_number.html#a5a41bc64660942d5250cb826f70894e0" title="returns the number calculated: (n + v) / s" alt="" coords="399,119,549,145"/>
+<area shape="rect" id="node7" href="$class_fixed_point_number.html#ae2bf9678820514ac30189389b589f691" title=" " alt="" coords="359,169,589,194"/>
+<area shape="rect" id="node8" href="$class_fixed_point_number.html#a5c7ea42ab1dae73faee7823a6bd68789" title=" " alt="" coords="377,219,571,259"/>
+</map>
