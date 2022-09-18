@@ -4,6 +4,12 @@ import org.slf4j.LoggerFactory;
 public class AppAccount {
 
     /**
+     * \mainpage Application to calculate fixed point numbers
+     * \author Alexander Wiltz
+     * \since 2022-09-08
+     */
+
+    /**
      *
      * @author Alexander Wiltz
      * @date 2022-09-08

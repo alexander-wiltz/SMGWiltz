@@ -1,0 +1,13 @@
+# class-files
+**/*.class
+
+# folders from IDE
+.idea/
+target/
+
+# folder for external libraries to compile the project with ant
+# delete this entry, when you don't want to use MAVEN
+[Ll]ib/
+
+# config files from IDE
+**/*.iml

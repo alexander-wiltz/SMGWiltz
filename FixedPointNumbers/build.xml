@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<project name="SMG-Wiltz-Ant" basedir=".\SMGWiltz\FixedPointNumbers\src\main" default="all">
+
+	<!-- Quelle: https://github.com/MBrill/AntExample/blob/main/build.xml -->
+	<!-- https://stackoverflow.com/questions/5103384/ant-warning-includeantruntime-was-not-set -->
+	<property name="build.sysclasspath" value="last"/>
+
+	<!-- setting up the target directories for creating some java and documentation stuff -->
+	<property name="src.dir" location="${basedir}\java"/>
+	<property name="log.dir" location="${basedir}\resources"/>
+	<property name="lib.dir" location="${basedir}\..\..\lib"/>
+	<property name="bin.dir" location="${basedir}\java\bin" />
+	<property name="doc.dir" location="${basedir}\..\..\..\html" />
+
+	<!-- execution path of doxygen and location of config file -->
+	<property name="exec-path" location="C:\Programme\doxygen\bin" />
+	<property name="doxyfile" location="${basedir}\..\..\..\Doxyfile" />
+
+	<!-- name of the main-class -->
+	<property name="AppAccount-Class" value="AppAccount" />
+
+	<!-- copying the external libs to the class-path -->
+	<path id="class.path">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- creating new directories -->
+	<target name="makedir">
+		<echo message= "Creating the directories..." />
+		<mkdir dir="${bin.dir}" />
+		<mkdir dir="${doc.dir}" />
+	</target>
+
+	<!-- compile the java stuff -->
+	<target name="compile" description="compile target" depends="makedir">
+		<echo message = "Compiling the sources..."/>
+		<javac srcdir="." destdir="${bin.dir}" classpathref="class.path" />
+		<!-- copying the logback-config to the executable classes -->
+		<copy todir="${bin.dir}" flatten="true" file="${log.dir}\logback.xml" />
+	</target>
+
+	<!-- run the compiled project -->
+	<target name="run" depends="compile">
+		<echo message = "Ant running the Java main!"/>
+		<java dir="${bin.dir}" fork="true" classname="AppAccount">
+			<classpath>
+				<path location="${bin.dir}"/>
+				<path refid="class.path"/>
+			</classpath>
+		</java>
+	</target>
+
+	<!-- creating an HTML-documentation with Doxygen	-->
+	<target name="docs" depends="makedir">
+		<echo message = "calling doxygen"/>
+		<echo message = "Output from doxgen can be found in doxygenout.txt"/>
+		<exec dir="." executable="${exec-path}\doxygen"
+			  output="${bin.dir}\doxygenOut.txt"
+			  failonerror="true"
+			  failifexecutionfails="true">
+			<arg value="${doxyfile}" />
+		</exec>
+	</target>
+
+	<!-- cleaning up the binaries in the project -->
+	<target name="clean">
+		<echo message = "Cleaning up the class-files!"/>
+		<!-- delete the whole ${bin.dir} directory -->
+		<delete dir="${bin.dir}"/>
+	</target>
+
+	<!-- execute the whole defined targets (must have attribute!) -->
+	<target name="all" depends="compile, run, makedir, docs, clean">
+		<echo message = "compile and run the application..."/>
+	</target>
+
+</project>
