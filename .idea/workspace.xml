@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="added .gitignore">
+      <change afterPath="$PROJECT_DIR$/FixedPointNumbers/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/FixedPointNumbers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/FixedPointNumbers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/AppAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/main/java/AppAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/target/classes/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/target/classes/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/target/classes/FixedPointNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/target/classes/FixedPointNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_account_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_account_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_account_multiply_test_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_account_multiply_test_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_app_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_app_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_app_account_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_app_account_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_fixed_point_add_subtact_test_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_fixed_point_add_subtact_test_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_fixed_point_construct_test_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_fixed_point_construct_test_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_fixed_point_number_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_fixed_point_number_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_account-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_account-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app_account-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app_account-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_fixed_point_number-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_fixed_point_number-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_fixed_point_number.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_fixed_point_number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_050a9436c3aaa4e696a45fa1e49b2d99.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_050a9436c3aaa4e696a45fa1e49b2d99_dep.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_050a9436c3aaa4e696a45fa1e49b2d99_dep.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_050a9436c3aaa4e696a45fa1e49b2d99_dep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_119ac0aca37854910f8885a93b6e9dfd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_242f211901ce8908dda6503c4d5e99ec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_242f211901ce8908dda6503c4d5e99ec_dep.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_242f211901ce8908dda6503c4d5e99ec_dep.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_242f211901ce8908dda6503c4d5e99ec_dep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_3aec746c2f0b285e249f62643786960a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_3aec746c2f0b285e249f62643786960a_dep.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_3aec746c2f0b285e249f62643786960a_dep.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_3aec746c2f0b285e249f62643786960a_dep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_55e6ad85f76378da515e57cc6e61eb26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_55e6ad85f76378da515e57cc6e61eb26_dep.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_55e6ad85f76378da515e57cc6e61eb26_dep.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_55e6ad85f76378da515e57cc6e61eb26_dep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_9673797b2187bbf7ce53ce12a19abbd9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_9673797b2187bbf7ce53ce12a19abbd9_dep.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_9673797b2187bbf7ce53ce12a19abbd9_dep.md5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_9673797b2187bbf7ce53ce12a19abbd9_dep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/functions_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/functions_vars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/graph_legend.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/graph_legend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/inherits.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/inherits.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentSearchFilters">
+      <list>
+        <option value="state:open" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EU8Z0UtmftngVXXhtJ1uoq7VFT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FixedPointNumbers" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\Downloads\SMGWiltz\FixedPointNumbers" />
+      <recent name="C:\Users\alexa\Downloads\SMGWiltz\FixedPointNumbers\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexa\Downloads\SMGWiltz\FixedPointNumbers" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppAccount">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Account" />
+      <module name="FixedPointNumbers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="FixedPointNumbers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppAccount" />
+      <module name="FixedPointNumbers" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountMultiplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FixedPointNumbers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountMultiplyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixedPointAddSubtactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FixedPointNumbers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FixedPointAddSubtactTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppAccount" />
+        <item itemvalue="JUnit.AccountMultiplyTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Account" />
+        <item itemvalue="JUnit.FixedPointAddSubtactTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="" />
+      <created>1662638854124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662638854124</updated>
+      <workItem from="1662638855372" duration="995000" />
+      <workItem from="1662639868687" duration="15107000" />
+      <workItem from="1662802972235" duration="4335000" />
+      <workItem from="1663234310945" duration="13696000" />
+      <workItem from="1663257570122" duration="595000" />
+      <workItem from="1663322014307" duration="1248000" />
+      <workItem from="1663513724437" duration="6411000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1662638955680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662638955680</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1662639045243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662639045243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First commit">
+      <created>1662639959177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662639959177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added project classes from Mr Brill">
+      <created>1662640212714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662640212714</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fixed JUnit Jupiter Version to 5.9.0 and compiler version to v15">
+      <created>1662644325026</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662644325026</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created Classes Account and AppAccount and created a multiply function for the FixedPointNumbers in the Account-Class">
+      <created>1662655614494</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662655614494</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added testcase for Multiply Test&#10;created HTML Documentation">
+      <created>1662657658206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662657658206</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added testcase for Multiply Test&#10;created HTML Documentation">
+      <created>1662657794848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662657794848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added testcase for Multiply Test">
+      <created>1662657902985</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662657902985</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added testcase for Multiply Test">
+      <created>1662657910860</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662657910860</updated>
+    </task>
+    <task id="LOCAL-00011" summary="release1 created">
+      <created>1662658619782</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662658619782</updated>
+    </task>
+    <task id="LOCAL-00012" summary="edited some settings, nothing special">
+      <created>1662803121222</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662803121222</updated>
+    </task>
+    <task id="LOCAL-00013" summary="edited the class and method descriptions for the documentation">
+      <created>1662806666031</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662806666031</updated>
+    </task>
+    <task id="LOCAL-00014" summary="edited the class and method descriptions for the documentation">
+      <created>1662807282429</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662807282429</updated>
+    </task>
+    <task id="LOCAL-00015" summary="created an HTML documentation with DoxyGen">
+      <created>1662807537373</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662807537373</updated>
+    </task>
+    <task id="LOCAL-00016" summary="edited README.md, marked point 7">
+      <created>1662807575933</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662807575933</updated>
+    </task>
+    <task id="LOCAL-00017" summary="edited README.md, marked point 7">
+      <created>1662807651952</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662807651952</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added logging method with tow log-levels&#10;file-path is: {project-root}/log/&#10;(example log uploaded)">
+      <created>1663248987937</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663248987938</updated>
+    </task>
+    <task id="LOCAL-00019" summary="edited README.md: description for release 3">
+      <created>1663249370117</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663249370117</updated>
+    </task>
+    <task id="LOCAL-00020" summary="edited comments in the java files for a better doxygen HTML output">
+      <created>1663255200441</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663255200441</updated>
+    </task>
+    <task id="LOCAL-00021" summary="better doxygen HTML output">
+      <created>1663255568999</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1663255568999</updated>
+    </task>
+    <task id="LOCAL-00022" summary="workspace.xml autoedit by IDE">
+      <created>1663255609324</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663255609324</updated>
+    </task>
+    <task id="LOCAL-00023" summary="nicer README.md with relative-links to the releases">
+      <created>1663256927152</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663256927152</updated>
+    </task>
+    <task id="LOCAL-00024" summary="nicer README.md with relative-links to the releases">
+      <created>1663256999171</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1663256999171</updated>
+    </task>
+    <task id="LOCAL-00025" summary="nicer README.md with relative-links to the releases">
+      <created>1663257052427</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663257052427</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added timestamp-option in logback.xml for creating unique filenames">
+      <created>1663257748903</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1663257748903</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added .gitignore">
+      <created>1663257972671</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663257972671</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added .gitignore">
+      <created>1663258039994</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1663258039994</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Added project classes from Mr Brill" />
+    <MESSAGE value="Fixed JUnit Jupiter Version to 5.9.0 and compiler version to v15" />
+    <MESSAGE value="Created Classes Account and AppAccount and created a multiply function for the FixedPointNumbers in the Account-Class" />
+    <MESSAGE value="Added testcase for Multiply Test&#10;created HTML Documentation" />
+    <MESSAGE value="Added testcase for Multiply Test" />
+    <MESSAGE value="release1 created" />
+    <MESSAGE value="edited some settings, nothing special" />
+    <MESSAGE value="edited the class and method descriptions for the documentation" />
+    <MESSAGE value="created an HTML documentation with DoxyGen" />
+    <MESSAGE value="edited README.md, marked point 7" />
+    <MESSAGE value="added logging method with tow log-levels&#10;file-path is: {project-root}/log/&#10;(example log uploaded)" />
+    <MESSAGE value="edited README.md: description for release 3" />
+    <MESSAGE value="edited comments in the java files for a better doxygen HTML output" />
+    <MESSAGE value="better doxygen HTML output" />
+    <MESSAGE value="workspace.xml autoedit by IDE" />
+    <MESSAGE value="nicer README.md with relative-links to the releases" />
+    <MESSAGE value="added timestamp-option in logback.xml for creating unique filenames" />
+    <MESSAGE value="added .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore" />
+  </component>
+</project>
