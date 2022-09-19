@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="created build.xml for ANT as compile-tool&#10;Tested several times, also for creating an HTML documentation" />
+    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="created build.xml for ANT as compile-tool&#10;Tested several times, also for creating an HTML documentation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

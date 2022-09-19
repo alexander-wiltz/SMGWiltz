@@ -11,8 +11,8 @@
 - [X] Schritt 7, README.md anpassen und *release2* erzeugen
 - [X] Schritt 8, Logging implementieren
 - [X] Schritt 9, README.md anpassen und *release3* erzeugen
-- [ ] Schritt 10, Ant als Build-Werkzeug einsetzen, HTML Doku erstellbar über Konsole
-- [ ] Schritt 11, README.md anpassen und *release4* erzeugen
+- [X] Schritt 10, Ant als Build-Werkzeug einsetzen, HTML Doku erstellbar über Konsole
+- [X] Schritt 11, README.md anpassen und *release4* erzeugen
 - [ ] Schritt 12, Lösung aus Schritt 10 im main-branch des GitHub-repositories verwenden und auf GitHub mit Hilfe von Actions ein Build erstellen, das bei einem Commit oder manuell getriggert wird. Verwenden von GitHub-Pages um die erstellte HTMLDokumentation im repository verfügbar zu machen. README.md anpassen und *release5* erzeugen
 
 ## Beschreibung der Code-Änderungen ([Release-1](../../releases/tag/release-1))
@@ -34,7 +34,19 @@
   - Doxyfile angepasst
 
 ## Beschreibung der Code-Änderungen ([Release-4](../../releases/tag/release-4))
-- Test
+- diverse Probleme beim Commit
+  - Fälschlicherweise die FixedPointNumber.iml gelöscht -> führte zum Projektfehler (lokal)
+  - Unachtsames Pushen führte zu Problemen unter den Branches
+  - Restore etwas schwieriger, aber gelöst durch Erstellen eines Branches von einem älteren Commit
+  - Diesen mit dem lokalen Projekt zusammengeführt, verglichen und neu committed
+- Erstellen eines gitignore, damit keine IDE-Projekt-Files übertragen werden
+- Ant-Configuration (build.xml) erstellt mit Hilfe von Beispieldateien aus Vorlesungsunterlagen, Internetrecherche und Ant-Dokumentation
+- Screenshot von lokal ausgeführter Ant-Config in Projektverzeichnis
+
+![Screenshot](ant-execute-screenshot.PNG)
+
+- *\mainpage* - Attribut in der Hauptklasse 'Account' hinzugefügt und HTML-Dokumentation neu erstellt (-> für Doxygen)
+- Release4 erstellt und release-4-branch zur Sicherung des aktuellen Standes
 
 ## Beschreibung der Code-Änderungen ([Release-5](../../releases/tag/release-5))
 - Test
