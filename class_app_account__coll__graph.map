@@ -1,0 +1,6 @@
+<map id="AppAccount" name="AppAccount">
+<area shape="rect" id="node1" title=" " alt="" coords="5,269,99,295"/>
+<area shape="rect" id="node2" title=" " alt="" coords="61,5,123,31"/>
+<area shape="rect" id="node3" href="$class_account.html" title=" " alt="" coords="69,181,139,207"/>
+<area shape="rect" id="node4" href="$class_fixed_point_number.html" title=" " alt="" coords="157,93,286,119"/>
+</map>
