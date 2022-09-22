@@ -14,10 +14,7 @@ jobs:
         with: 
           java-version: '11'
           distribution: 'adopt'
-          cache: maven
-      - name: Compile with Maven
-        run: mvn -B package --file FixedPointNumbers/pom.xml compile
-        
+          cache: maven       
       - name: Create a jar
         run: mvn -B package --file FixedPointNumbers/pom.xml package
         
