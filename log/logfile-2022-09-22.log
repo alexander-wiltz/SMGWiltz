@@ -1,0 +1,59 @@
+#logback.classic pattern: %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+17:12:43.787 [main] INFO  AppAccount - Started 'Geldbetr?ge'
+17:12:43.799 [main] DEBUG Account - 100 = (100 * 1.0) - 0 and prepare for next function
+17:12:43.801 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+17:12:43.802 [main] DEBUG Account - 200 = (100 * 2.0) - 0 and prepare for next function
+17:12:43.814 [main] DEBUG AppAccount - Value is 2.0
+17:12:43.817 [main] DEBUG AppAccount - Get the value by calculating 200 + 0 / 100
+17:12:43.819 [main] INFO  AppAccount - Value as number: 200
+17:12:43.819 [main] INFO  Account - Calling 'multiply-method'
+17:12:43.819 [main] DEBUG Account - 300 = (100 * 3.0) - 0 and prepare for next function
+17:12:43.819 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+17:12:43.823 [main] DEBUG Account - Calculate 200 * (300.0 / 100)
+17:12:43.824 [main] INFO  Account - Returned value is: 600
+17:12:43.825 [main] INFO  AppAccount - Multiply 2.0 and 3.0
+17:12:43.825 [main] DEBUG AppAccount - Value is 6.0
+17:12:43.825 [main] DEBUG AppAccount - Get the value by calculating 600 + 0 / 100
+17:12:43.825 [main] INFO  AppAccount - Value as number: 600
+17:12:43.826 [main] DEBUG Account - 100 = (100 * 1.0) - 0 and prepare for next function
+17:12:43.826 [main] DEBUG AppAccount - Value is 1.0
+17:12:43.826 [main] DEBUG AppAccount - Get the value by calculating 100 + 0 / 100
+17:12:43.826 [main] INFO  AppAccount - Value as number: 100
+17:12:43.826 [main] INFO  Account - Calling 'multiply-method'
+17:12:43.826 [main] DEBUG Account - 200 = (100 * 2.0) - 0 and prepare for next function
+17:12:43.826 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+17:12:43.826 [main] DEBUG Account - Calculate 100 * (200.0 / 100)
+17:12:43.826 [main] INFO  Account - Returned value is: 200
+17:12:43.827 [main] INFO  AppAccount - Multiply 1.0 und 2.0
+17:12:43.827 [main] DEBUG AppAccount - Value is 2.0
+17:12:43.827 [main] DEBUG AppAccount - Get the value by calculating 200 + 0 / 100
+17:12:43.827 [main] INFO  AppAccount - Value as number: 200
+17:13:15.376 [main] INFO  AppAccount - Started 'Geldbetr?ge'
+17:13:15.386 [main] DEBUG Account - 100 = (100 * 1.0) - 0 and prepare for next function
+17:13:15.388 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+17:13:15.388 [main] DEBUG Account - 200 = (100 * 2.0) - 0 and prepare for next function
+17:13:15.400 [main] DEBUG AppAccount - Value is 2.0
+17:13:15.403 [main] DEBUG AppAccount - Get the value by calculating 200 + 0 / 100
+17:13:15.404 [main] INFO  AppAccount - Value as number: 200
+17:13:15.404 [main] INFO  Account - Calling 'multiply-method'
+17:13:15.404 [main] DEBUG Account - 300 = (100 * 3.0) - 0 and prepare for next function
+17:13:15.404 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+17:13:15.407 [main] DEBUG Account - Calculate 200 * (300.0 / 100)
+17:13:15.407 [main] INFO  Account - Returned value is: 600
+17:13:15.409 [main] INFO  AppAccount - Multiply 2.0 and 3.0
+17:13:15.409 [main] DEBUG AppAccount - Value is 6.0
+17:13:15.409 [main] DEBUG AppAccount - Get the value by calculating 600 + 0 / 100
+17:13:15.409 [main] INFO  AppAccount - Value as number: 600
+17:13:15.409 [main] DEBUG Account - 100 = (100 * 1.0) - 0 and prepare for next function
+17:13:15.410 [main] DEBUG AppAccount - Value is 1.0
+17:13:15.410 [main] DEBUG AppAccount - Get the value by calculating 100 + 0 / 100
+17:13:15.410 [main] INFO  AppAccount - Value as number: 100
+17:13:15.410 [main] INFO  Account - Calling 'multiply-method'
+17:13:15.410 [main] DEBUG Account - 200 = (100 * 2.0) - 0 and prepare for next function
+17:13:15.410 [main] DEBUG Account - Scale is set to 100 and displacement is set to 0
+17:13:15.410 [main] DEBUG Account - Calculate 100 * (200.0 / 100)
+17:13:15.410 [main] INFO  Account - Returned value is: 200
+17:13:15.410 [main] INFO  AppAccount - Multiply 1.0 und 2.0
+17:13:15.411 [main] DEBUG AppAccount - Value is 2.0
+17:13:15.411 [main] DEBUG AppAccount - Get the value by calculating 200 + 0 / 100
+17:13:15.411 [main] INFO  AppAccount - Value as number: 200
