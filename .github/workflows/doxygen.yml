@@ -1,0 +1,26 @@
+# Example for using doxgen in a GitHub Action
+# source: https://github.com/MBrill/DoxygenExample
+name: Deploy HTML-Documentation created by doxygen on branch gh-pages
+
+on:
+  workflow_dispatch
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      name: Checkout the sources
+    - uses: mattnotmitt/doxygen-action@v1.3.1
+      name: Create html pages     
+      with:
+        doxyfile-path: './Doxyfile'
+    - uses: peaceiris/actions-gh-pages@v3
+      name: Deploy HTML pages      
+      if: ${{ github.ref == 'refs/heads/main' }}
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./html
+        publish_branch: gh-pages
