@@ -4,9 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="created build.xml for ANT as compile-tool&#10;Tested several times, also for creating an HTML documentation">
+    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="commit lib-folder for github-action ant.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/AccountMultiplyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/AccountMultiplyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointAddSubtactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointAddSubtactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointConstructTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointConstructTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_account_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_account_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_account_multiply_test_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_account_multiply_test_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_app_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_app_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_app_account_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_app_account_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_fixed_point_add_subtact_test_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_fixed_point_add_subtact_test_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_fixed_point_construct_test_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_fixed_point_construct_test_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/_fixed_point_number_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_fixed_point_number_8java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_account-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_account-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app_account-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app_account-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_app_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_app_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_fixed_point_number-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_fixed_point_number-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_fixed_point_number.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_fixed_point_number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_0b4ce18f776fc30c1c4e48f45e46235e.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dir_0b4ce18f776fc30c1c4e48f45e46235e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_13e138d54eb8818da29c3992edef070a.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dir_13e138d54eb8818da29c3992edef070a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/dir_e033298f2156e5e9d9e90a60ada84467.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/dir_e033298f2156e5e9d9e90a60ada84467.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/functions_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/functions_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/functions_vars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/graph_legend.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/graph_legend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/inherits.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/inherits.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +159,10 @@
       <workItem from="1663257570122" duration="595000" />
       <workItem from="1663322014307" duration="1248000" />
       <workItem from="1663513724437" duration="6717000" />
+      <workItem from="1663695082715" duration="1670000" />
+      <workItem from="1663781328274" duration="642000" />
+      <workItem from="1663851180820" duration="1854000" />
+      <workItem from="1663856978864" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1662638955680</created>
@@ -332,7 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663522039591</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="edited README.md for preparation release-4, also the branch">
+      <created>1663614320632</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1663614320632</updated>
+    </task>
+    <task id="LOCAL-00031" summary="commit lib-folder for github-action ant.yml">
+      <created>1663852729312</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1663852729312</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +419,8 @@
     <MESSAGE value="added timestamp-option in logback.xml for creating unique filenames" />
     <MESSAGE value="added .gitignore" />
     <MESSAGE value="created build.xml for ANT as compile-tool&#10;Tested several times, also for creating an HTML documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="created build.xml for ANT as compile-tool&#10;Tested several times, also for creating an HTML documentation" />
+    <MESSAGE value="edited README.md for preparation release-4, also the branch" />
+    <MESSAGE value="commit lib-folder for github-action ant.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit lib-folder for github-action ant.yml" />
   </component>
 </project>

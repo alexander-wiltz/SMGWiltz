@@ -13,7 +13,7 @@
 - [X] Schritt 9, README.md anpassen und *release3* erzeugen
 - [X] Schritt 10, Ant als Build-Werkzeug einsetzen, HTML Doku erstellbar über Konsole
 - [X] Schritt 11, README.md anpassen und *release4* erzeugen
-- [ ] Schritt 12, Lösung aus Schritt 10 im main-branch des GitHub-repositories verwenden und auf GitHub mit Hilfe von Actions ein Build erstellen, das bei einem Commit oder manuell getriggert wird. Verwenden von GitHub-Pages um die erstellte HTMLDokumentation im repository verfügbar zu machen. README.md anpassen und *release5* erzeugen
+- [X] Schritt 12, Lösung aus Schritt 10 im main-branch des GitHub-repositories verwenden und auf GitHub mit Hilfe von Actions ein Build erstellen, das bei einem Commit oder manuell getriggert wird. Verwenden von GitHub-Pages um die erstellte HTMLDokumentation im repository verfügbar zu machen. README.md anpassen und *release5* erzeugen
 
 ## Beschreibung der Code-Änderungen ([Release-1](../../releases/tag/release-1))
 - Hinzugefügte Klasse *Account* (abgeleitet von FixedPointNumber), um die Berechnung von Festkommazahlen mit anderer Skalierung und Verschiebung für Geldbeträge zu berechnen. Multiplikationsmthode hinzugefügt.
@@ -49,5 +49,10 @@
 - Release4 erstellt und release-4-branch zur Sicherung des aktuellen Standes
 
 ## Beschreibung der Code-Änderungen ([Release-5](../../releases/tag/release-5))
-- Test
-- Test
+- GitActions durch Anlegen zweier .yml-Dateien in .github/workflows
+  - ant.yml -> zum Kompilieren über ANT auf Github
+  - doxygen.html -> zum Erstellen von GitPages über eine Action
+- GitPages veröffentlicht und erreichbar unter: ([https://vrlab-hskl.github.io/SMGWiltz/](https://vrlab-hskl.github.io/SMGWiltz/))
+- JUnit-Testfiles nach kommentiert
+- Neuer Durchlauf von ANT angetriggert, um Dokumentation zu erneuern
+- Neuen Durchlauf über GitActions angestoßen, um gitpages zu aktualisieren
