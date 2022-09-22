@@ -16,10 +16,10 @@ jobs:
           distribution: 'adopt'
           cache: maven
       - name: Compile with Maven
-        run: mvn -B package --file pom.xml compile
+        run: mvn -B package --file FixedPointNumbers/pom.xml compile
         
       - name: Create a jar
-        run: mvn -B package --file pom.xml package
+        run: mvn -B package --file FixedPointNumbers/pom.xml package
         
       - name: Archive the jar as an artifact
         uses: actions/upload-artifact@v2
