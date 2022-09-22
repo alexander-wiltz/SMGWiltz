@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="commit lib-folder for github-action ant.yml">
+    <list default="true" id="302e7d43-237f-4580-b883-293ed278f8b8" name="Changes" comment="JUnit-Testfiles commented, Created new Doxygen-Docu with ANT, finalized README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/AccountMultiplyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/AccountMultiplyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointAddSubtactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointAddSubtactTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointConstructTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/test/java/FixedPointConstructTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FixedPointNumbers/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FixedPointNumbers/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/_account_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_account_8java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/_account_multiply_test_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_account_multiply_test_8java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/_app_8java.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/_app_8java.html" afterDir="false" />
@@ -162,7 +160,8 @@
       <workItem from="1663695082715" duration="1670000" />
       <workItem from="1663781328274" duration="642000" />
       <workItem from="1663851180820" duration="1854000" />
-      <workItem from="1663856978864" duration="951000" />
+      <workItem from="1663856978864" duration="1314000" />
+      <workItem from="1663859392921" duration="197000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1662638955680</created>
@@ -381,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663852729312</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="JUnit-Testfiles commented, Created new Doxygen-Docu with ANT, finalized README.md">
+      <created>1663858294347</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1663858294347</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +427,7 @@
     <MESSAGE value="created build.xml for ANT as compile-tool&#10;Tested several times, also for creating an HTML documentation" />
     <MESSAGE value="edited README.md for preparation release-4, also the branch" />
     <MESSAGE value="commit lib-folder for github-action ant.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit lib-folder for github-action ant.yml" />
+    <MESSAGE value="JUnit-Testfiles commented, Created new Doxygen-Docu with ANT, finalized README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnit-Testfiles commented, Created new Doxygen-Docu with ANT, finalized README.md" />
   </component>
 </project>
