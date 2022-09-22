@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<project name="SMG-Wiltz-Ant" basedir=".\SMGWiltz\FixedPointNumbers\src\main" default="all">
+<project name="SMG-Wiltz-Ant" basedir=".\FixedPointNumbers\src\main" default="all">
 
 	<!-- Quelle: https://github.com/MBrill/AntExample/blob/main/build.xml -->
 	<!-- https://stackoverflow.com/questions/5103384/ant-warning-includeantruntime-was-not-set -->
